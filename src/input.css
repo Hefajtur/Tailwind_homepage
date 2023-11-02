@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.banner_content{
+    @apply grid grid-cols-1 md:grid-cols-2 gap-14  md:gap-40  mt-14 md:mt-32;
+}
+.banner_content h1{
+    @apply text-5xl leading-normal font-light inline-block mt-10;
+}
